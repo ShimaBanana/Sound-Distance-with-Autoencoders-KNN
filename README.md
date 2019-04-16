@@ -1,14 +1,14 @@
 # Sound-Distance-with-Autoencoders-KNN
 Given a user specified audio wav file,  this pipeline will search through a user specified database of audio wav files and return the top k most "similar" files to the query file
 
-## The Algorithm
+### The Algorithm
   1. Preprocess audio dataset (convert sample rate, bit depth, sum to mono, trim duration) 
   2. Extract features (convert audio to mel spectrogram) 
   3. Train autoencoder (on entire dataset)
   4. Encode audio dataset
   5. Perform KNN and return top K most similar samples
 
-## Libraries Used
+### Libraries Used
 
 - SoX - 1.3.7 (http://sox.sourceforge.net)
 - numpy - 1.14.5 
