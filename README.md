@@ -10,21 +10,21 @@ Given a user specified audio wav file,  this pipeline will search through a user
 
 ## Libraries Used
 
-SoX - 1.3.7 (http://sox.sourceforge.net)
-numpy - 1.14.5 
-pandas - 0.20.3 
-soundfile - 0.10.2
-h5py - 2.9.0
-matplotlib - 2.2.2
-librosa - 0.6.2
-sklearn - 0.19.1
-keras - 2.2.4
+- SoX - 1.3.7 (http://sox.sourceforge.net)
+- numpy - 1.14.5 
+- pandas - 0.20.3 
+- soundfile - 0.10.2
+- h5py - 2.9.0
+- matplotlib - 2.2.2
+- librosa - 0.6.2
+- sklearn - 0.19.1
+- keras - 2.2.4
   
 ## To Run
 
 In the command line, navigate to where you downloaded the repository and run this command: 
 
-python main.py [DATASET_FOLDER_PATH] [QUERY_FILENAME] [NUM OF ITEMS TO RETURN] [FIRSTTIME]
+python main.py [DATASET FOLDER PATH] [QUERY FILENAME] [NUM OF ITEMS TO RETURN] [FIRST TIME]
 
 Example: python main.py /home/audio/samples/drums 002_kick.wav 5 True
 
