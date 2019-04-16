@@ -5,7 +5,7 @@
 
 
 """
- feature_extraction.py (author: Tina Johnson / git: ??? )
+ feature_extraction.py (author: Tina Johnson / git: ShimaBanana)
  This class converts processed aduio into STFT for autoencoder input
 """
 
